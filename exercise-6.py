@@ -11,10 +11,10 @@ class Person:
     def compare_to(self, other_person):
         if self.age > other_person.age:
             print(f'I am {self.age - other_person.age} years older than '
-            f'{person2.name}.')
+            f'{other_person.name}.')
         elif self.age < other_person.age:
             print(f'I am {other_person.age - self.age} years younger than '
-            f'{person2.name}.')
+            f'{other_person.name}.')
         else:
             print(f'I am the same age as {other_person.name}.')
 
